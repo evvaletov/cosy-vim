@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language: COSY INFINITY
-" Maintainer: User
+" Maintainer: Eremey Valetov
 " Latest Revision: 2025-02-08
 
 if exists("b:current_syntax")
