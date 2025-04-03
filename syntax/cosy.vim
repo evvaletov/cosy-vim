@@ -30,6 +30,7 @@ syntax keyword cosyMath EXP LOG SIN COS TAN ASIN ACOS ATAN SINH COSH TANH
 syntax keyword cosyMath SQRT ISRT ISRT3 SQR ERF WERF
 syntax keyword cosyVector VMIN VMAX ABS NORM CONS REAL IMAG CMPLX CONJ
 syntax keyword cosyUtility INT NINT NOT TRIM LTRIM
+syntax keyword cosyBeamDynamicsLowLevelFunction MAX MIN MOD SIG IM ATAN2 VATAN2 SS R S SF SI COEF WABS ILAST IPOS
 
 " Intrinsic procedures
 syntax keyword cosyProcedure MEMALL MEMFRE MEMDPV MEMWRT SCRLEN CPUSEC PWTIME PNPRO
@@ -42,6 +43,7 @@ syntax keyword cosyProcedure DANORS DACLIW DACQLC DAPEP DANOW DAEST MTREE CDF2 C
 syntax keyword cosyProcedure CDNFDA CDNFDS LINV LDET LEV MBLOCK LSLINE SUBST RSTCRE
 syntax keyword cosyProcedure RECST VELSET VELGET VEDOT VEUNIT VEZERO IMUNIT LTRUE
 syntax keyword cosyProcedure LFALSE INTPOL CLEAR
+syntax keyword cosyBeamDynamicsLowLevelProcedure CONTINUE SVSCR TRCAP WORDS FIELDS MI FOURIERTRANS
 
 " Graphics procedures
 syntax keyword cosyGraphics GRMOVE GRDRAW GRDOT GRTRI GRPOLY GRCURV GRCHAR GRCOLR
@@ -89,7 +91,9 @@ highlight default link cosySystem Function
 highlight default link cosyMath Function
 highlight default link cosyVector Function
 highlight default link cosyUtility Function
+highlight default link cosyBeamDynamicsLowLevelFunction Function
 highlight default link cosyProcedure Function
+highlight default link cosyBeamDynamicsLowLevelProcedure Function
 highlight default link cosyGraphics Function
 highlight default link cosyBeam Function
 highlight default link cosyConstant Constant
