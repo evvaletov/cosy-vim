@@ -8,7 +8,7 @@ if exists("b:current_syntax")
 endif
 
 " Case sensitive
-syntax case match
+syntax case ignore
 
 " Comments
 syntax region cosyComment start=/{/ end=/}/ contains=cosyComment
